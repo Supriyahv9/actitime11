@@ -2,5 +2,7 @@ All types of locators
 
 driver.findelementBy.id
 driver.findelementBy.name
+driver.manage().window().maximize();
+driver.manage().timeouts().implicitlywait(Duration.of seconds(10));
 
 
